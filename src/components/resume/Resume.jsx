@@ -16,7 +16,7 @@ const Resume = () => {
         </p>
       </div>
       {/* card*/}
-      <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
+      <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto  ">
         <div className="left flex-1 flex items-center justify-center">
           <fieldset
             data-aos="zoom-in"
@@ -33,7 +33,7 @@ const Resume = () => {
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg ">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Web Full Stack Developer
                 </h1>

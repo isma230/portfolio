@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
             <h2
               data-aos="fade-up"
-              className=" text-5xl font-bold sm:text-[2rem]"
+              className=" text-5xl font-bold sm:text-[25px]"
             >
               Hello, I'm Ismail Chari
             </h2>
@@ -34,7 +34,7 @@ const Hero = () => {
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-blue-500 text-4xl font-bold sm:text-3xl"
+              className="text-blue-500 text-4xl font-bold sm:text-[25px]"
             />
             <p
               // data-aos="fade-up"
@@ -107,14 +107,14 @@ const Hero = () => {
           </div>
         </div>
         <div className="right  top-5 flex-1 flex items-center justify-center  md:items-end sm:items-end">
-          <div className="relative h-[88%] w-fit flex left-13 items-center   sm:items-end">
+          <div className="relative h-[70%] w-[70%] w-fit flex left-13 items-center sm:items-end  rounded-full  overflow-hidden  shadow-2xl  transform transition duration-300 hover:scale-105">
             <img
               data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src="images/programmer.png"
+              className=" h-full  w-full  object-cover md:h-full sm:h-full"
+              src="images/mine.jpg"
               alt="mine"
             />
-            {/* <div className=" absolute bottom-24  md:bottom-3 right-28 md:right-2">
+        {/* <div className=" absolute bottom-[-20px]  md:bottom-3 right-[180px] md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
@@ -126,6 +126,7 @@ const Hero = () => {
                 />
               </div>
             </div> */}
+           
           </div>
         </div>
       </div>

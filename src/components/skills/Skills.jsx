@@ -55,7 +55,7 @@ const Skills = ({ darkMode }) => {
             </div>
           </div>
           {/* right box */}
-          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
+          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:flex-nowrap">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
                 logo={<SiBootstrap />}

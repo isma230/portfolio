@@ -66,7 +66,6 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           </Link>
         </div>
         <div
-          data-aos="fade-down"
           className="nav-items flex items-center space-x-11"
         >
           {/* hamburger */}
@@ -74,7 +73,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             onClick={toggleNav}
             className="cursor-pointer text-2xl hidden md:block"
           >
-            <HiMenu size={25} />
+            <HiMenu size={30} />
           </button>
 
           <ul
