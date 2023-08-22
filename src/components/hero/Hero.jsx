@@ -9,7 +9,6 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import cv from "../../assets/cv.pdf";
-import programmer from "../../assets/programmer.png";
 
 const Hero = () => {
   return (
@@ -100,7 +99,7 @@ const Hero = () => {
             <img
               data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src={programmer}
+              src="images/programmer.png"
               alt="mine"
             />
             {/* <div className=" absolute bottom-24  md:bottom-3 right-28 md:right-2">
