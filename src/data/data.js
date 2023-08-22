@@ -5,8 +5,8 @@ export const data = [
     img:"images/image1.png",
     title: "Full e-commerce WebSite",
     desc: "",
-    link: "",
-    git: "",
+    link: "https://e-commerce-website-ruddy.vercel.app/",
+    git: "https://github.com/isma230/e-commerce-website/",
   },
   {
     id: 2,

@@ -24,7 +24,7 @@ const Contact = () => {
             >
               <h1 className="text-5xl font-bold sm:text-3xl">You Need</h1>
               <h3 className="text-xl sm:text-lg">
-                Beautiful design for your website leave a request
+                Beautiful design for your website leave a request please.
               </h3>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Contact = () => {
             data-aos="zoom-in"
             
             className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
-            action="mailto:xyz@gmail.com"
+            action="mailto:esmailchari123@gmail.com"
           >
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"

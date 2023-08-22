@@ -62,7 +62,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-           Ismail Chari.
+            Ismail Chari.
           </Link>
         </div>
         <div
@@ -109,7 +109,12 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               href=""
               className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-blue-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
-              HIRE ME
+              <a
+                href="https://www.linkedin.com/in/esmail-chari-2b9834259/"
+                target="_blank"
+              >
+                Hire Me
+              </a>
             </a>
           </ul>
         </div>

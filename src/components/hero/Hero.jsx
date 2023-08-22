@@ -48,7 +48,13 @@ const Hero = () => {
               href=""
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-blue-500"
             >
-              <span> Hire Me</span>
+              <a
+                href="https://www.linkedin.com/in/esmail-chari-2b9834259/"
+                target="_blank"
+              >
+                {" "}
+                Hire Me
+              </a>
             </a>
             <a
               href={cv}
@@ -67,17 +73,23 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
+                <a href="https://github.com/isma230" target="_blank">
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
-                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
+                <a
+                  href="https://www.linkedin.com/in/esmail-chari-2b9834259/"
+                  target="_blank"
+                >
+                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />
                 </a>
               </li>
               <li>
-                <a href="">
+                <a
+                  href="https://instagram.com/_ismail_otk_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+                  target="_blank"
+                >
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>

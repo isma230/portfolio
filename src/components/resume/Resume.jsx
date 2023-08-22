@@ -67,7 +67,7 @@ const Resume = () => {
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
                 <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
-                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="line w-[240px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
               </div>
               {/* design */}
@@ -84,9 +84,7 @@ const Resume = () => {
                 <p className=" text-[.9rem] text-justify text-gray-500">
                   Embarking on a two-year education journey to become a web full
                   stack developer offers an exciting path to comprehensive
-                  expertise in the world of web development. Over this span, you
-                  will delve into the intricate realm of both front-end and
-                  back-end technologies, honing your skills in crafting visually
+                  expertise in the world of web development. Developing your skills in crafting visually
                   appealing and responsive user interfaces while also mastering
                   the art of designing and maintaining server-side
                   architecture.
