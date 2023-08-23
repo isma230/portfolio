@@ -107,10 +107,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="right  top-5 flex-1 flex items-center justify-center  md:items-end sm:items-end">
-          <div className="relative h-[70%] w-[70%] w-fit flex left-13 items-center sm:items-end  rounded-full  overflow-hidden  shadow-2xl  transform transition duration-300 hover:scale-105">
+          <div className="relative h-[70%] w-[70%] w-fit flex left-13 items-center sm:items-end  rounded-full opacity-0.9  overflow-hidden  shadow-2xl  transform transition duration-300 hover:scale-105">
             <img
               data-aos="fade-up"
-              className=" h-full  w-full  object-cover md:h-full sm:h-full"
+              className=" h-full  w-full shadow-2xl object-cover md:h-full sm:h-full"
               src="images/mine.jpg"
               alt="mine"
             />
