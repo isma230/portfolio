@@ -104,17 +104,13 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 </a>
               </li>
             ))}
-            <a
-              href=""
-              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-blue-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
-            >
               <a
                 href="https://www.linkedin.com/in/esmail-chari-2b9834259/"
                 target="_blank"
+                className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-blue-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
               >
                 Hire Me
               </a>
-            </a>
           </ul>
         </div>
       </nav>
