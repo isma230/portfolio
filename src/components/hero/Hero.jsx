@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import cv from "../../assets/cv.pdf";
+import cv from "../../assets/cv ismail-eng.pdf";
 
 const Hero = () => {
   return (
@@ -48,11 +48,10 @@ const Hero = () => {
               href=""
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-blue-500"
             >
-              <a
+             <a
                 href="https://www.linkedin.com/in/esmail-chari-2b9834259/"
                 target="_blank"
               >
-                {" "}
                 Hire Me
               </a>
             </a>
