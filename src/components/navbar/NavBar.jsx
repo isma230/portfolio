@@ -52,7 +52,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
   return (
     <div
       className={`w-full mx-auto  fixed top-0 py-5 sm:py-4 z-30 ${
-        scrollPosition > 0 ? `bg-white shadow-md` : "bg-transparent"
+        scrollPosition > 0 ? "bg-white shadow-md" : "bg-transparent"
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
@@ -84,7 +84,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             {/* Use a button tag for better accessibility */}
             <button
               onClick={toggleNav}
-              className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}
+              className={"text-3xl hidden md:block relative right-0 top-4 container mx-auto"}
             >
               <RxCross2 size={25} />
             </button>
